@@ -1,3 +1,5 @@
+package src;
+
 public class starTriangle {
     public static void result() {
         String asterisk = "";
