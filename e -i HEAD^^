@@ -1,0 +1,276 @@
+[33mcommit b58bba7d8c6f6becdf0a68bff15afe434ba395d5[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Thelma <thelmaguerrag@gmail.com>
+Date:   Fri Jun 23 11:26:56 2023 -0300
+
+    changed name of CS61B_WEEK_1 module to  CS61B_Stuff_I_Write
+
+[33mcommit 3d71c9325a3e6921cfad82c37046a7329f5001f3[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Thelma <thelmaguerrag@gmail.com>
+Date:   Fri Jun 23 11:23:18 2023 -0300
+
+    finished proj0
+
+[33mcommit d303117ce9b8d717f7d2ce353e6060a87b2bdffd[m
+Author: thelma <thelmaguerrag@gmail.com>
+Date:   Mon Jun 19 07:59:00 2023 -0300
+
+    Completed Lab01 - Arithmetic.java
+
+[33mcommit 028d6cdf8fc6a0cb868bceb91be398e94be3da9b[m
+Author: Noah Adhikari <noahadhikari@berkeley.edu>
+Date:   Thu Apr 13 12:05:36 2023 -0700
+
+    Update TETile.java
+
+[33mcommit 143f3316fcb1ba60f80dc75e5f6b99890aad94ac[m
+Author: Noah Adhikari <noahadhikari@berkeley.edu>
+Date:   Thu Apr 13 12:04:44 2023 -0700
+
+    Update TERenderer.java
+
+[33mcommit a2d9fc9af5b8eb01592b4ef0c1475153903003f8[m
+Author: Aram Kazorian <aramk@berkeley.edu>
+Date:   Mon Apr 10 14:28:19 2023 -0700
+
+    fixed typo
+
+[33mcommit b603d29ed11b1d33580eb5d7777bb65bf43bf24c[m
+Author: Aram Kazorian <aramk@berkeley.edu>
+Date:   Mon Apr 10 13:28:59 2023 -0700
+
+    added lab13 skeleton
+
+[33mcommit b248c6cf01db6034514b634fd2ecdabc57b58b36[m
+Author: Noah Adhikari <noahadhikari@berkeley.edu>
+Date:   Tue Apr 4 01:16:06 2023 -0700
+
+    add lab12 skeleton
+
+[33mcommit cdd0da2831d49e2ab986abfc74bd2a7ba2e9e735[m
+Author: Shreyas Kompalli <shreyaskompalli@berkeley.edu>
+Date:   Mon Apr 3 14:26:18 2023 -0700
+
+    added proj3 skeleton
+
+[33mcommit a2c17a7138a4c9219b172348bd388bb02b4cd52f[m
+Author: laksith19 <laksith@berkeley.edu>
+Date:   Fri Mar 10 14:07:50 2023 -0800
+
+    Update staff_ngordnet.js
+
+[33mcommit 428c80c2b6674b65aaef46f951be7c06b14da70a[m
+Author: Noah Adhikari <noahadhikari@berkeley.edu>
+Date:   Mon Mar 6 23:04:48 2023 -0800
+
+    change maxLoad to loadFactor for consistency
+
+[33mcommit 362448a5012d4e219bb582e51afa65c33cff1b59[m
+Author: Shreyas Kompalli <60303939+shreyaskompalli@users.noreply.github.com>
+Date:   Sat Mar 4 19:32:16 2023 -0800
+
+    Update staff_ngordnet.js
+
+[33mcommit 4280b8cae9c705e6e5f52f6ca3d9db91dad41fcd[m
+Author: Shreyas Kompalli <shreyaskompalli@berkeley.edu>
+Date:   Sat Mar 4 18:32:43 2023 -0800
+
+    added staff ngordnet solution
+
+[33mcommit 7902b688d87198f5bcc287b5a033e0dca484df92[m
+Author: Shreyas Kompalli <60303939+shreyaskompalli@users.noreply.github.com>
+Date:   Mon Feb 27 19:49:06 2023 -0800
+
+    Added example_input_file.txt
+
+[33mcommit 4e59c41fc631dcf624f81c712d8cb5565069bfac[m
+Author: Noah Adhikari <noahadhikari@berkeley.edu>
+Date:   Mon Mar 6 22:38:52 2023 -0800
+
+    add lab08 skeleton
+
+[33mcommit de5800fa038c55c27bf04401812726c4d1e61081[m
+Author: Noah Adhikari <noahadhikari@berkeley.edu>
+Date:   Mon Feb 27 19:12:30 2023 -0800
+
+    add lab7 skeleton
+
+[33mcommit 201df4fa19710ed019682f4cada1a71fa96f9431[m
+Author: Shreyas Kompalli <shreyaskompalli@berkeley.edu>
+Date:   Mon Feb 27 12:36:22 2023 -0800
+
+    made constants final
+
+[33mcommit 4708a830ca1315054843e7201123e22698036351[m
+Author: Shreyas Kompalli <shreyaskompalli@berkeley.edu>
+Date:   Mon Feb 27 10:54:22 2023 -0800
+
+    added min/max year constants
+
+[33mcommit 5b8c6ff5cdcda6c04ac212127f6cd5d6c4dd8df8[m
+Author: Shreyas Kompalli <shreyaskompalli@berkeley.edu>
+Date:   Sun Feb 26 22:47:40 2023 -0800
+
+    added proj2a skeleton
+
+[33mcommit 105bba3cb85ac8f46826e15940550a92ee8bce83[m
+Author: Shreyas Kompalli <60303939+shreyaskompalli@users.noreply.github.com>
+Date:   Sun Feb 26 22:44:14 2023 -0800
+
+    Update .gitignore
+
+[33mcommit c721a8e4f8522506c3ac5d9ed9c6968a13a8b850[m
+Author: Shreyas Kompalli <shreyaskompalli@berkeley.edu>
+Date:   Tue Feb 21 21:52:31 2023 -0800
+
+    fixed PercolationStats main method
+
+[33mcommit 3d88672d2b333ed8c289290ebcb26c67870f3b67[m
+Author: Shreyas Kompalli <shreyaskompalli@berkeley.edu>
+Date:   Tue Feb 21 18:27:57 2023 -0800
+
+    added hw2 skeleton
+
+[33mcommit 9843ce64628cbbd5bf8efad4278e61be7f469907[m
+Author: Aram Kazorian <aramk@berkeley.edu>
+Date:   Tue Feb 21 10:45:38 2023 -0800
+
+    added lab06 skeleton
+
+[33mcommit 2612488ad6bda371de8b9655d8855d49af66ce00[m
+Author: Shreyas Kompalli <shreyaskompalli@berkeley.edu>
+Date:   Wed Feb 15 12:07:44 2023 -0800
+
+    added proj1c skeleton
+
+[33mcommit e2454404450e18bbe115628868c480fe28ab1d8c[m
+Author: Noah Adhikari <noahadhikari@berkeley.edu>
+Date:   Mon Feb 13 22:13:57 2023 -0800
+
+    add lab05 skeleton
+
+[33mcommit 1d397b8df92e673865979262b0997586eb3f03b1[m
+Author: Shreyas Kompalli <shreyaskompalli@berkeley.edu>
+Date:   Sun Feb 5 23:39:52 2023 -0800
+
+    added proj1b skeleton
+
+[33mcommit 16821a782d9fe09d95f1df598b37c7cc2accc56b[m
+Author: Aram Kazorian <aramk@berkeley.edu>
+Date:   Tue Jan 31 09:57:16 2023 -0800
+
+    added lab03 skeleton
+
+[33mcommit db90adddac0e1a7f0a87617cb9b34bd970f896ac[m
+Author: Shreyas Kompalli <shreyaskompalli@berkeley.edu>
+Date:   Sat Jan 28 21:35:28 2023 -0800
+
+    added proj1a skeleton
+
+[33mcommit 38230903b4dba5a2291c2cce4f9cf6cc93dd58ca[m
+Author: Josh Hug <hug@cs.berkeley.edu>
+Date:   Tue Jan 24 12:27:59 2023 -0800
+
+    add two new tests to detect slowness in guessers
+
+[33mcommit 0cd8779762bf66a796a91b943a27b903938c7ff3[m
+Author: Noah Adhikari <noahadhikari@berkeley.edu>
+Date:   Mon Jan 23 16:59:50 2023 -0800
+
+    update tests to be consistent with spec
+
+[33mcommit 75a6056aba066acb9bb395ce639ba55f53b95a93[m
+Author: Noah Adhikari <noahadhikari@berkeley.edu>
+Date:   Mon Jan 23 16:47:31 2023 -0800
+
+    fix infinite loop issue
+
+[33mcommit c3294049b06f4f321fa429a4414eb4302e6fb500[m
+Author: Thelma <thelmaguerrag@gmail.com>
+Date:   Mon Jun 19 08:12:12 2023 -0300
+
+    rebase
+
+[33mcommit d220279487d06fe78209252872a82f03fb822e68[m
+Author: Noah Adhikari <noahadhikari@berkeley.edu>
+Date:   Tue Jan 24 00:26:06 2023 -0800
+
+    fix species list stage test
+
+[33mcommit f721919f822ea1824432f498b764d645624b6f6a[m
+Author: Shreyas Kompalli <shreyaskompalli@berkeley.edu>
+Date:   Sat Jan 21 17:25:17 2023 -0800
+
+    added proj0 skeleton
+
+[33mcommit 5ede7a659ffa81df4dc5c8526d258dbb127ea820[m
+Author: Shreyas Kompalli <shreyaskompalli@berkeley.edu>
+Date:   Fri Jan 20 19:00:35 2023 -0800
+
+    added hw0b skeleton
+
+[33mcommit 0ef8dd256bebd0961567f7ee6217a761dc8253d2[m
+Author: Noah Adhikari <noahadhikari@berkeley.edu>
+Date:   Mon Jan 23 13:27:11 2023 -0800
+
+    add lab02 skeleton
+
+[33mcommit c5b6cda3aab85c6310c46599a8ba7725edb0fcd8[m
+Author: Noah Adhikari <noahadhikari@berkeley.edu>
+Date:   Tue Jan 17 00:11:16 2023 -0800
+
+    add lab01 skeleton
+
+[33mcommit 6489c924823275fd4d717485e4dc3e4f639b19cf[m
+Author: Noah Adhikari <noahadhikari@berkeley.edu>
+Date:   Tue Jan 17 00:11:04 2023 -0800
+
+    add .gitignore
+
+[33mcommit 635c543eeb83ec24392637fd99fdc9aa78852c27[m
+Author: thelma <thelmaguerrag@gmail.com>
+Date:   Fri Jun 16 18:13:35 2023 -0300
+
+    add the copies of the exercises I had made from the course
+
+[33mcommit b87a713660403907c732d1723b6264f22647196f[m
+Author: thelma <thelmaguerrag@gmail.com>
+Date:   Fri Jun 16 18:12:08 2023 -0300
+
+    create new empty java folder with Intellij
+
+[33mcommit 53b87188e1d531ffeb96af60fdc9ea7a109298de[m
+Author: thelma <thelmaguerrag@gmail.com>
+Date:   Fri Jun 16 18:05:32 2023 -0300
+
+    changed CS61B_week_1
+
+[33mcommit 8cec7ed511e7d468900bd210b7590ec829cd5aff[m
+Author: thelma <thelmaguerrag@gmail.com>
+Date:   Fri Jun 16 17:55:38 2023 -0300
+
+    Create and Add Projects Folder
+
+[33mcommit 044e553f8ae25dfa32eb36eaf48a090a9eb3038e[m
+Merge: a446ffb 95fa402
+Author: thelma <thelmaguerrag@gmail.com>
+Date:   Fri Jun 16 17:24:32 2023 -0300
+
+    Merge branch 'main' of https://github.com/ThelmaGuerra/CS61B
+
+[33mcommit 95fa4022000eff81c1916f736b31a9a852517ead[m
+Author: Thelma Guerra Guedes <87508772+ThelmaGuerra@users.noreply.github.com>
+Date:   Fri Jun 16 17:10:24 2023 -0300
+
+    Delete old readme
+
+[33mcommit d7b9afa5a0236743e762dcd0ec76c2ccbf05a4d2[m
+Author: Thelma Guerra Guedes <87508772+ThelmaGuerra@users.noreply.github.com>
+Date:   Fri Jun 16 17:03:12 2023 -0300
+
+    Initial commit
+
+[33mcommit a446ffbf79563bef772b02eb9df000ebcac8b141[m
+Author: thelma <thelmaguerrag@gmail.com>
+Date:   Fri Jun 16 16:37:10 2023 -0300
+
+    commiting week 1
