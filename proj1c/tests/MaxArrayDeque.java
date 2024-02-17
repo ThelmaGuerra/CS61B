@@ -6,7 +6,7 @@ import deque.LinkedListDeque;
 import static com.google.common.truth.Truth.assertThat;
 import static com.google.common.truth.Truth.assertWithMessage;
 
-public class MaxArrayDequeTest {
+public class MaxArrayDeque {
     @Test
     public void addLastTestBasicWithoutToList() {
         Deque<String> lld1 = new LinkedListDeque<>();
