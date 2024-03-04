@@ -5,7 +5,18 @@ public class Percolation {
     // TODO: Add any necessary instance variables.
 
     public Percolation(int N) {
-        // TODO: Fill in this constructor.
+        /*
+         TODO: Fill in this constructor.
+         Build N x N square.
+         4 x 4
+         0 1 2 3
+         4 5 6 7
+         8 9 10 11
+         12 13 14 15
+        */
+
+        /* Top would be position < N. Conectar lateralmente horizontal, com exceção
+         */
     }
 
     public void open(int row, int col) {
