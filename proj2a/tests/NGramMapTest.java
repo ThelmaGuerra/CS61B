@@ -67,9 +67,13 @@ public class NGramMapTest {
         fishAndDog.add("fish");
         fishAndDog.add("dog");
         TimeSeries fishPlusDogWeight = ngm.summedWeightHistory(fishAndDog, 1865, 1866);
+        TimeSeries fishPlusDogWeightAllYears = ngm.summedWeightHistory(fishAndDog);
 
         double expectedFishPlusDogWeight1865 = (136497.0 + 75819.0) / 2563919231.0;
+        double expectedFishPlusDogWeight1405 = (136497.0 + 75819.0) / 2563919231.0;
+
         assertThat(fishPlusDogWeight.get(1865)).isWithin(1E-10).of(expectedFishPlusDogWeight1865);
+        assertThat(fishPlusDogWeightAllYears.get(1865)).isWithin(1E-10).of(expectedFishPlusDogWeight1865);
     }
 
 }  

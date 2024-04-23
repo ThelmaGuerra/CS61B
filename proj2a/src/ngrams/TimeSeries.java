@@ -1,7 +1,8 @@
 package ngrams;
 
-import java.util.List;
-import java.util.TreeMap;
+import edu.princeton.cs.algs4.In;
+
+import java.util.*;
 
 /**
  * An object for mapping a year number (e.g. 1996) to numerical data. Provides
@@ -28,6 +29,12 @@ public class TimeSeries extends TreeMap<Integer, Double> {
     public TimeSeries(TimeSeries ts, int startYear, int endYear) {
         super();
         // TODO: Fill in this constructor.
+        NavigableMap<Integer, Double> ts_submap = ts.subMap(startYear, true, endYear, true);
+        Set<Map.Entry<Integer,Double>> ts_SetOfMapEntries = ts_submap.entrySet();
+
+        for(Map.Entry<Integer,Double> mapEntry : ts_SetOfMapEntries) {
+            this.put(mapEntry.getKey(), mapEntry.getValue());
+        }
     }
 
     /**
@@ -35,7 +42,8 @@ public class TimeSeries extends TreeMap<Integer, Double> {
      */
     public List<Integer> years() {
         // TODO: Fill in this method.
-        return null;
+        Set<Integer> years_set = this.keySet();
+        return new ArrayList<>(years_set);
     }
 
     /**
@@ -44,7 +52,9 @@ public class TimeSeries extends TreeMap<Integer, Double> {
      */
     public List<Double> data() {
         // TODO: Fill in this method.
-        return null;
+        Collection<Double> collection_of_values = this.values();
+
+        return new ArrayList<>(collection_of_values);
     }
 
     /**
@@ -58,7 +68,27 @@ public class TimeSeries extends TreeMap<Integer, Double> {
      */
     public TimeSeries plus(TimeSeries ts) {
         // TODO: Fill in this method.
-        return null;
+
+        List<Integer> my_years = this.years();
+        List<Integer> ts_years = ts.years();
+
+        Set<Integer> set_of_years = new HashSet<>();
+
+        set_of_years.addAll(my_years);
+        set_of_years.addAll(ts_years);
+        System.out.println(set_of_years);
+
+        TimeSeries result = new TimeSeries();
+
+        if(set_of_years.isEmpty()) {
+            return result;
+        }
+
+        for(Integer year : set_of_years) {
+            result.put(year, Optional.ofNullable(this.get(year)).orElse(0.0) + Optional.ofNullable(ts.get(year)).orElse(0.0));
+        }
+
+        return result;
     }
 
     /**
@@ -72,7 +102,21 @@ public class TimeSeries extends TreeMap<Integer, Double> {
      */
     public TimeSeries dividedBy(TimeSeries ts) {
         // TODO: Fill in this method.
-        return null;
+
+        List<Integer> my_years = this.years();
+
+        TimeSeries result = new TimeSeries();
+
+        for(int year : my_years) {
+            try {
+                result.put(year, this.get(year) / ts.get(year));
+            } catch (Exception e) {
+                throw new IllegalArgumentException(e);
+            }
+        }
+
+
+        return result;
     }
 
     // TODO: Add any private helper methods.

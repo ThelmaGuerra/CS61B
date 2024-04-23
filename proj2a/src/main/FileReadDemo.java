@@ -15,6 +15,8 @@ public class FileReadDemo {
             System.out.print("After splitting on tab characters, the first word is: ");
             String[] splitLine = nextLine.split("\t");
             System.out.println(splitLine[0]);
+            System.out.println("and the year is: " + splitLine[1]);
+            System.out.println("and the number of times that the word appeared is: " + splitLine[2]);
         }
     }
 }
