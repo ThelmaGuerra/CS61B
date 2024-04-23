@@ -14,7 +14,7 @@ public abstract class NgordnetQueryHandler implements Route {
     private static final Gson gson = new Gson();
 
     private static List<String> commaSeparatedStringToList(String s) {
-        String[] requestedWords = s.split(",");
+        String[] requestedWords = s.split("[, ]");
         for (int i = 0; i < requestedWords.length; i += 1) {
             requestedWords[i] = requestedWords[i].trim();
         }
